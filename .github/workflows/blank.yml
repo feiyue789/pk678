@@ -1,9 +1,20 @@
-# This is a basic workflow to help you get started with Actions
+#
 
-name: CI
+# https://github.com/P3TERX/IBM-CF-V2
 
+#
 
+# Copyright (c) 2020 P3TERX <https://p3terx.com>
 
+#
+
+# This is free software, licensed under the MIT License.
+
+# See /LICENSE for more information.
+
+#
+
+name: IBM Cloud Foundry - V2Ray
 
 env:
 
@@ -188,4 +199,6 @@ jobs:
     - name: Deploy Cloud Foundry App
 
       run: cf push
+
+
 
