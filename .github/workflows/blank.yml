@@ -27,7 +27,6 @@ jobs:
         run: echo Hello, world!
 
 
-name: IBM Cloud Foundry - V2Ray
 
 env:
 
